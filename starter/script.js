@@ -1,8 +1,8 @@
 // JavaScript function that wraps everything
-$(document).ready(function() {
+$(document).ready(function () {
 
   // Array for word colors
-  var colorsOfText = [];
+  var colorsOfText = ["brown", "blue", "magenta", "teal", "coral", "black"];
 
   // Target word
   var targetColor;
@@ -66,7 +66,7 @@ $(document).ready(function() {
   }
 
   // Get id of element clicked by user
-  $("#color-picker").click(function(event) {
+  $("#color-picker").click(function (event) {
 
   });
 
